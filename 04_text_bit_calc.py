@@ -3,7 +3,7 @@ def text_bits():
 
     print()
     # ask user for a string...
-    var_text = input("Enter some text:")
+    var_text = input("Enter some text: ")
 
     # calculate # of bits (length of string x 8)
     var_length = len(var_text)
@@ -13,12 +13,10 @@ def text_bits():
     print()
     print("\'{}\' has {} characters ...".format(var_text, var_length))
     print("# of bits is {} x 8...".format(var_length))
-    print("We need {} bits to represent {}".format(num_bits, var_text))
+    print("We need {} bits to represent '{}'".format(num_bits, var_text))
     print()
 
     return ""
 
 # Main routine goes here
 text_bits()
-
-
