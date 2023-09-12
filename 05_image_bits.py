@@ -28,8 +28,8 @@ def num_check(question, low):
 def image_bits():
     # asks user for width and height
 
-    image_height = num_check("Enter the height ", 1)
-    image_width = num_check("Enter the height ", 1)
+    image_height = num_check("Enter the height: ", 1)
+    image_width = num_check("Enter the width: ", 1)
 
     # calculate pixels and bits
 
