@@ -179,5 +179,3 @@ while keep_going == "":
     # (must be integers more than / equal to 1)
 
     # For text, ask for a string
-
-
