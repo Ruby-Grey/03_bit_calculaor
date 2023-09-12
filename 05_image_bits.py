@@ -26,7 +26,6 @@ def num_check(question, low):
 
 # finds # of bits for 24 bit colour
 def image_bits():
-
     # asks user for width and height
 
     image_height = num_check("Enter the height ", 1)
@@ -43,6 +42,7 @@ def image_bits():
     print()
 
     return ""
+
 
 # Main routine goes here
 image_bits()
