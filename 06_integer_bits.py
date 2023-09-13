@@ -33,7 +33,7 @@ def int_bits():
     # source for code
     # https://stackoverflow.com/questions/699866/python-int-to-binary-string
 
-    var_binary = "{0:b}.".format(var_integer)
+    var_binary = "{0:b}".format(var_integer)
 
     # calculate # of bits (length of string above)
     num_bits = len(var_binary)
